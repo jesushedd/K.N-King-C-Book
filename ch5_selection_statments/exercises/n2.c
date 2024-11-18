@@ -14,4 +14,10 @@ int main (void){
 
     // c)
     i = 5; j = 0; k = -5;
+    printf("%d\n", i && j || k);
+    // 1 true
+
+    // d)
+    i = 1; j =2; k = 3;
+    printf("%d\n", i < j || k);
 }
